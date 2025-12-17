@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pause",
+    "precio": 105,
+    "descripcion": "Una sesión para bajar el ritmo y reconectar contigo sin esfuerzo."
+  },
+  {
+    "id": 2,
+    "nombre": "Wake Up, Slowly",
+    "precio": 200,
+    "descripcion": "Despertar la consciencia con calma, presencia y cero prisas."
+  },
+  {
+    "id": 3,
+    "nombre": "Still Here",
+    "precio": 205,
+    "descripcion": "Un espacio guiado para recordar que ya estás donde necesitas estar."
+  },
+  {
+    "id": 4,
+    "nombre": "Group Hug (No Touching)",
+    "precio": 150,
+    "descripcion": "Sanación colectiva con buen humor y respeto por el espacio personal."
+  },
+  {
+    "id": 5,
+    "nombre": "Life, Reboot",
+    "precio": 180,
+    "descripcion": "Una pausa consciente para resetear sin desconectarte del todo."
+  },
+  {
+    "id": 6,
+    "nombre": "Moon Mood",
+    "precio": 95,
+    "descripcion": "Sesión inspirada en la energía lunar y los cambios de humor internos."
+  },
+  {
+    "id": 7,
+    "nombre": "Inner Kid, Please",
+    "precio": 130,
+    "descripcion": "Reconecta con tu niño interior, el que todavía sabe jugar."
+  },
+  {
+    "id": 8,
+    "nombre": "Breathe. Just Breathe.",
+    "precio": 90,
+    "descripcion": "Respirar como si no hubiera nada más urgente ahora mismo."
+  }
+]

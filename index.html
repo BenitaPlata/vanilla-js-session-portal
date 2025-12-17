@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mindful Sessions – Sesiones Interactivas</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- CABECERA -->
+   <header class="topbar">
+  <h1>Mindful Sessions</h1>
+
+  <nav>
+    <span id="indicadorTema">🌿</span>
+    <button id="btnVerSesiones" class="btn">Ver sesiones</button>
+    <button id="btnCarrito" class="btn btn-secondary">Carrito</button>
+    <button id="btnPreferencias" class="btn btn-secondary">
+      Preferencias
+    </button>
+  </nav>
+</header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container">
+      <!-- VISTA INICIO -->
+      <section id="vistaInicio" class="card">
+        <h2>Sesiones Interactivas de Supra Consciencia</h2>
+        <p>
+          Explora nuestras sesiones grupales diseñadas para conectar con tu
+          esencia interior y expandir tu consciencia.
+        </p>
+      </section>
+
+      <!-- VISTA SESIONES -->
+      <section id="vistaSesiones" class="card" hidden>
+        <h3>Sesiones disponibles</h3>
+        <input
+          type="text"
+          id="buscadorSesiones"
+          placeholder="Buscar sesión por nombre..."
+          class="input"
+        />
+
+        <div id="gridSesiones" class="grid"></div>
+      </section>
+
+      <!-- VISTA CARRITO -->
+      <section id="vistaCarrito" class="card" hidden>
+        <h3>Carrito espiritual</h3>
+
+        <ul id="listaCarrito" class="list"></ul>
+
+        <div class="cart-summary">
+          <span id="txtUnidades">0 sesiones</span>
+          <strong id="txtTotal">0.00 €</strong>
+        </div>
+
+        <button id="btnVaciarCarrito" class="btn btn-secondary">
+          Vaciar carrito
+        </button>
+      </section>
+
+      <!-- VISTA PREFERENCIAS -->
+      <section id="vistaPreferencias" class="card" hidden>
+        <h3>Preferencias</h3>
+
+        <form id="formPreferencias">
+          <p>Selecciona el modo visual que te resulte más agradable:</p>
+
+          <label>
+            <input type="radio" name="tema" value="zen" checked />
+            Modo Zen (relajante)
+          </label>
+
+          <label>
+            <input type="radio" name="tema" value="activo" />
+            Modo Activo (energizante)
+          </label>
+
+          <button type="submit" class="btn">Guardar preferencias</button>
+        </form>
+
+        <p id="mensajePreferencias"></p>
+      </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+      <small>© Mindful Sessions · Conecta con tu esencia</small>
+    </footer>
+
+    <!-- JavaScript principal -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

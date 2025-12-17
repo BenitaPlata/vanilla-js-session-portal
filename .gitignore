@@ -1,0 +1,10 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de editor
+.vscode/
+.idea/
+
+# Logs (por si acaso)
+*.log
